@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/crypto/ssh"
+	"golang.org/tangyi1989/crypto/ssh"
 )
 
 func TestServer(t *testing.T) {

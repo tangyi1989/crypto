@@ -17,8 +17,8 @@ import (
 	"strconv"
 	"time"
 
-	"golang.org/x/crypto/openpgp/errors"
-	"golang.org/x/crypto/openpgp/s2k"
+	"golang.org/tangyi1989/crypto/openpgp/errors"
+	"golang.org/tangyi1989/crypto/openpgp/s2k"
 )
 
 const (

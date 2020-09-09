@@ -7,7 +7,7 @@
 //
 // Clearsigned messages are cryptographically signed, but the contents of the
 // message are kept in plaintext so that it can be read without special tools.
-package clearsign // import "golang.org/x/crypto/openpgp/clearsign"
+package clearsign // import "golang.org/tangyi1989/crypto/openpgp/clearsign"
 
 import (
 	"bufio"
@@ -20,9 +20,9 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/crypto/openpgp/armor"
-	"golang.org/x/crypto/openpgp/errors"
-	"golang.org/x/crypto/openpgp/packet"
+	"golang.org/tangyi1989/crypto/openpgp/armor"
+	"golang.org/tangyi1989/crypto/openpgp/errors"
+	"golang.org/tangyi1989/crypto/openpgp/packet"
 )
 
 // A Block represents a clearsigned message. A signature on a Block can

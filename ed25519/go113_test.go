@@ -8,7 +8,7 @@ package ed25519_test
 
 import (
 	ed25519std "crypto/ed25519"
-	"golang.org/x/crypto/ed25519"
+	"golang.org/tangyi1989/crypto/ed25519"
 	"testing"
 )
 
